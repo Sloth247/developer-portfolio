@@ -17,8 +17,11 @@ export default {
       white: 'hsl(0, 0%, 100%)',
     },
     fontSize: {
+      18: '1.125rem',
       32: '2rem',
       40: '2.5rem', // 40px
+      48: '3rem',
+      72: '4.5rem',
     },
     extend: {
       fontFamily: {
@@ -26,22 +29,34 @@ export default {
       },
       lineHeight: {
         26: '1.625rem',
+        175: '1.75rem',
+        35: '3.5rem',
+        '7xl': '4.5rem',
       },
       letterSpacing: {
         custom: '0.14288rem',
         minus: '-0.0625rem',
         minus2: '-0.071rem',
+        minus3: '-0.12781rem',
+        minus4: '-0.09375rem',
       },
       minHeight: {
         668: '6.68rem',
       },
       spacing: {
+        0.88: '0.88rem',
         25: '1.6rem',
         contact: '5.625rem',
         39: '2.44rem',
         50: '3.13rem',
+        1875: '1.875rem',
+        212: '2.12rem',
+        325: '3.25rem',
+        3625: '3.625rem',
         375: '3.75rem',
+        45: '4.5rem',
         87: '5.44rem',
+        625: '6.25rem',
       },
       backgroundImage: {
         header:
@@ -52,6 +67,11 @@ export default {
       backgroundPosition: {
         'mob-ring': '-21.38rem 7.75rem',
         'mob-circle': 'right -4.06rem top 15.88rem',
+      },
+      maxWidth: {
+        400: '400px',
+        445: '445px',
+        tab: '322px',
       },
       borderRadius: {
         borderRadius: {
@@ -67,18 +87,18 @@ export default {
           800: '3.5rem', // 56px
         },
 
-        spacing: {
-          50: '0.25rem', // 4px
-          100: '0.5rem', // 8px
-          200: '0.875rem', // 12px
-          300: '1rem', // 16px
-          350: '1.125rem', // 18px
-          400: '1.5rem', // 24px
-          500: '2rem', // 32px
-          600: '2.5rem', // 40px
-          700: '2.875rem', // 46px
-          800: '3.5rem', // 56px
-        },
+        // spacing: {
+        //   50: '0.25rem', // 4px
+        //   100: '0.5rem', // 8px
+        //   200: '0.875rem', // 12px
+        //   300: '1rem', // 16px
+        //   350: '1.125rem', // 18px
+        //   400: '1.5rem', // 24px
+        //   500: '2rem', // 32px
+        //   600: '2.5rem', // 40px
+        //   700: '2.875rem', // 46px
+        //   800: '3.5rem', // 56px
+        // },
       },
     },
   },
