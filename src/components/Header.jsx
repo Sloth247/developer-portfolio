@@ -1,4 +1,5 @@
 import React from 'react';
+import NavIcons from './NavIcons';
 
 const Header = () => {
   return (
@@ -8,52 +9,7 @@ const Header = () => {
           <h1 className="text-2xl mb-5 leading-8 sm:mb-0 sm:text-32">
             adamkeyes
           </h1>
-          <ul role="list" className="flex flex-row justify-between">
-            <li role="list-item" className="mr-8">
-              <a href="">
-                <img
-                  src="/images/icon-github.svg"
-                  alt="Adam Keyes GitHub Page Link"
-                  width={19.69}
-                  height={19.2}
-                  className="sm:w-6 sm:h-auto"
-                />
-              </a>
-            </li>
-            <li className="mr-8">
-              <a href="">
-                <img
-                  src="/images/icon-frontend-mentor.svg"
-                  alt="Adam Keyes Frontend Mentor Page Link"
-                  width={19.68}
-                  height={17.6}
-                  className="sm:w-6 sm:h-auto"
-                />
-              </a>
-            </li>
-            <li className="mr-8">
-              <a href="">
-                <img
-                  src="/images/icon-linkedin.svg"
-                  alt="Adam Keyes LinkedIn Page Link"
-                  width={19.2}
-                  height={19.2}
-                  className="sm:w-6 sm:h-auto"
-                />
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img
-                  src="/images/icon-twitter.svg"
-                  alt="Adam Keyes Twitter Page Link"
-                  width={18.62}
-                  height={15.14}
-                  className="sm:w-6 sm:h-auto"
-                />
-              </a>
-            </li>
-          </ul>
+          <NavIcons />
         </nav>
         <picture className="sm:absolute sm:right-0 sm:top-0 sm:-z-10">
           <source

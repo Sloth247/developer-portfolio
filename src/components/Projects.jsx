@@ -2,9 +2,9 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <section className="px-4 sm:mb-28">
+    <section className="px-4 sm:mb-28 sm:px-1875">
       <div className="flex justify-between items-center pt-20 border-solid border-0 border-t border-white mb-10 sm:border-0 sm:pt-0 sm:mb-375 ">
-        <h2 className="text-40 tracking-minus2 leading-10 sm:text-72 sm:leading-7xl ">
+        <h2 className="text-40 tracking-minus2 leading-10 sm:text-72 sm:leading-7xl">
           Projects
         </h2>
         <a

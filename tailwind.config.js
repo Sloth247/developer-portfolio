@@ -46,6 +46,7 @@ export default {
       spacing: {
         0.88: '0.88rem',
         25: '1.6rem',
+        187: '1.87rem',
         contact: '5.625rem',
         39: '2.44rem',
         50: '3.13rem',
@@ -57,6 +58,7 @@ export default {
         45: '4.5rem',
         87: '5.44rem',
         625: '6.25rem',
+        65: '6.5rem',
       },
       backgroundImage: {
         header:

@@ -3,11 +3,13 @@ import VisuallyHidden from './styles/VisuallyHidden';
 
 const Contact = () => {
   return (
-    <section className="pb-87 pt-375  px-4 bg-grey text-center ">
-      <h2 className="text-40 tracking-minus2 leading-10 mb-5">Contact</h2>
+    <section className="pb-87 pt-375  px-4 bg-grey text-center sm:pb-65">
+      <h2 className="text-40 tracking-minus2 leading-10 mb-5 sm:text-72 sm:leading-7xl">
+        Contact
+      </h2>
 
-      <form action="">
-        <p className="mb-50 text-lightGrey">
+      <form action="" className="sm:max-w-445 sm:m-auto">
+        <p className="mb-50 text-lightGrey sm:mb-12">
           I would love to hear about your project and how I could help. Please
           fill in the form, and I'll get back to you as soon as possible.
         </p>
